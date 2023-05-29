@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.exemple.testPFE11.Page3"
+    android:background="@drawable/wlc_bg"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/caderform"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginHorizontal="50dp"
+                android:layout_marginVertical="48dp"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="162dp"
+                android:scrollbarSize="16dp"
+                app:cardBackgroundColor="#81D4FA"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/Genereaux"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="40dp"
+                    android:background="@drawable/btn_round"
+                    android:backgroundTint="#B3E5FC"
+                    android:gravity="center_vertical"
+                    android:minHeight="32dp"
+                    android:paddingStart="20dp"
+                    android:text="Rensignements Genereaux"
+                    android:textColor="#F60420"
+                    android:textSize="18dp" />
+
+                <EditText
+                    android:id="@+id/NamePrenom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="36dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginEnd="60dp"
+                    android:background="@drawable/btn_round"
+                    android:backgroundTint="@color/white"
+                    android:gravity="center_vertical"
+                    android:hint="le nom et Prenom"
+                    android:minHeight="32dp"
+                    android:paddingStart="20dp"
+                    android:textSize="18dp"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <EditText
+                    android:id="@+id/DateNaissence"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="36dp"
+                    android:layout_marginTop="80dp"
+                    android:layout_marginEnd="60dp"
+                    android:background="@drawable/btn_round"
+                    android:backgroundTint="@color/white"
+                    android:gravity="center_vertical"
+                    android:hint="Date de Naissence"
+                    android:minHeight="32dp"
+                    android:paddingStart="20dp"
+                    android:textSize="18dp"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <EditText
+                    android:id="@+id/LieuNaissence"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="36dp"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginEnd="60dp"
+                    android:background="@drawable/btn_round"
+                    android:backgroundTint="@color/white"
+                    android:gravity="center_vertical"
+                    android:hint="Lieu de Naissence"
+                    android:minHeight="32dp"
+                    android:paddingStart="20dp"
+                    android:textSize="18dp"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <EditText
+                    android:id="@+id/PaysNaissence"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="36dp"
+                    android:layout_marginTop="160dp"
+                    android:layout_marginEnd="60dp"
+                    android:background="@drawable/btn_round"
+                    android:backgroundTint="@color/white"
+                    android:gravity="center_vertical"
+                    android:hint="Pays de Naissence"
+                    android:minHeight="32dp"
+                    android:paddingStart="20dp"
+                    android:textSize="18dp"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <EditText
+                    android:id="@+id/Nationalite"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="36dp"
+                    android:layout_marginTop="200dp"
+                    android:layout_marginEnd="60dp"
+                    android:background="@drawable/btn_round"
+                    android:backgroundTint="@color/white"
+                    android:gravity="center_vertical"
+                    android:hint="Nationalite"
+                    android:minHeight="32dp"
+                    android:paddingStart="20dp"
+                    android:textSize="18dp"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <RadioGroup
+                    android:id="@+id/GroupSexe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="240dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/sexe"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_round"
+                        android:gravity="center_vertical"
+                        android:text="sexe :"
+                        android:textSize="24dp" />
+
+                    <RadioButton
+                        android:id="@+id/RadioButtonMasculain"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Masculain"
+                        tools:ignore="OnClick" />
+
+                    <RadioButton
+                        android:id="@+id/RadioButtonFeminin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Feminin"
+                        tools:ignore="OnClick" />
+
+                </RadioGroup>
+
+                <RadioGroup
+                    android:id="@+id/RadioGroupSituatoin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="280dp"
+                    android:layout_marginEnd="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/btn_round"
+                        android:text="Situation Familiale :"
+                        android:textSize="24dp" />
+
+
+                    <RadioButton
+                        android:id="@+id/RadioButtonCelebataire"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Celibataire" />
+
+                    <RadioButton
+                        android:id="@+id/RadioButtonMarie"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Marie(e)" />
+
+                    <RadioButton
+                        android:id="@+id/RadioButtonDivorce"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:text="Divorce(e)" />
+
+                    <RadioButton
+                        android:id="@+id/RadioButtonVeuf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Veuf/Veuve" />
+
+
+                </RadioGroup>
+
+                <EditText
+                    android:id="@+id/Profision"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="36dp"
+                    android:layout_marginTop="520dp"
+                    android:layout_marginEnd="60dp"
+                    android:background="@drawable/btn_round"
+                    android:backgroundTint="@color/white"
+                    android:gravity="center_vertical"
+                    android:hint="Profision"
+                    android:minHeight="32dp"
+                    android:paddingStart="20dp"
+                    android:textSize="18dp"
+                    tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/caderform2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginHorizontal="50dp"
+                android:layout_marginVertical="48dp"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="36dp"
+                android:layout_marginBottom="162dp"
+                android:scrollbarSize="16dp"
+                app:cardBackgroundColor="#81D4FA"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/RensignementsRelatifs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="60dp"
+                    android:background="@drawable/btn_round"
+                    android:backgroundTint="#B3E5FC"
+                    android:gravity="center_vertical"
+                    android:minHeight="32dp"
+                    android:paddingStart="20dp"
+                    android:text="Rensignements Relatifs Au Voyage"
+                    android:textColor="#FB0421"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/Activites"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginEnd="60dp"
+                    android:background="@drawable/btn_round"
+                    android:gravity="center_vertical"
+                    android:text="But de Voyage"
+                    android:textSize="17dp" />
+
+                <CheckBox
+                    android:id="@+id/ActiviteTourisme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Tourisme" />
+
+                <CheckBox
+                    android:id="@+id/ActiviteHumanitair"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="180dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Activites Humanitair"
+                    android:textSize="13dp"
+                    tools:ignore="TextSizeCheck" />
+
+                <CheckBox
+                    android:id="@+id/ActiviteBusiness"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="120dp"
+                    android:text="Business/affaire" />
+
+                <CheckBox
+                    android:id="@+id/ActiviteReligion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="180dp"
+                    android:layout_marginTop="120dp"
+                    android:text="Religion" />
+
+                <CheckBox
+                    android:id="@+id/ActiviteRaisonsMedicale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="160dp"
+                    android:text="Raisons Medicales"
+                    android:textSize="13dp"
+                    tools:ignore="TextSizeCheck" />
+
+                <CheckBox
+                    android:id="@+id/ActiviteEtude"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="180dp"
+                    android:layout_marginTop="160dp"
+                    android:text="Etude/Stage" />
+
+                <CheckBox
+                    android:id="@+id/ActiviteLoisire"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="200dp"
+                    android:text="Loisire" />
+
+                <CheckBox
+                    android:id="@+id/ActiviteCulture"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="180dp"
+                    android:layout_marginTop="200dp"
+                    android:text="Culture/Music" />
+
+                <EditText
+                    android:id="@+id/Autre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="36dp"
+                    android:layout_marginTop="240dp"
+                    android:layout_marginEnd="60dp"
+                    android:background="@drawable/btn_round"
+                    android:backgroundTint="@color/white"
+                    android:gravity="center_vertical"
+                    android:hint="Autre"
+                    android:minHeight="32dp"
+                    android:paddingStart="40dp"
+                    android:textSize="18dp"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <TextView
+                    android:id="@+id/Hotelhote"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="280dp"
+                    android:layout_marginEnd="60dp"
+                    android:background="@drawable/btn_round"
+                    android:gravity="center_vertical"
+                    android:text="Type de L hote :"
+                    android:textSize="17dp" />
+
+                <CheckBox
+                    android:id="@+id/HotFamille"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="300dp"
+                    android:text="famille" />
+
+                <CheckBox
+                    android:id="@+id/Hothotel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="140dp"
+                    android:layout_marginTop="300dp"
+                    android:text="Hotel" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="400dp"
+                    android:layout_marginEnd="5dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/page3email1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="5dp"
+                        android:hint="Email"
+                        android:inputType="textEmailAddress" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="460dp"
+                    android:layout_marginEnd="5dp"
+                    app:passwordToggleEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/page3password1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="5dp"
+                        android:hint="Password"
+                        android:inputType="textEmailAddress" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:id="@+id/page3signup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="590dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/btn_round"
+                    android:text="Sign Up" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="90dp"
+                    android:layout_marginTop="650dp"
+                    android:layout_marginEnd="5dp"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Don't have a accaunt !"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        tools:ignore="TextSizeCheck" />
+
+                    <TextView
+                        android:id="@+id/page3signin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="2dp"
+                        android:text="Sign IN"
+                        android:textColor="@color/purple_500"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        tools:ignore="TextSizeCheck" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

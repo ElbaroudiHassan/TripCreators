@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Too_Fragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        android:scrollbars="vertical"
+        >
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+            tools:ignore="ExtraText">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginEnd="30dp"
+                android:text="Guides touristique"
+                android:textStyle="bold"
+                android:textSize="26dp"
+                />
+            <ImageButton
+                android:id="@+id/Guide"
+                android:layout_width="wrap_content"
+                android:layout_height="275dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="40dp"
+                android:background="@drawable/guidetourisme"
+                android:paddingEnd="20dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginEnd="60dp"
+                android:text="Restaurants"
+                android:layout_marginTop="23dp"
+                android:textStyle="bold"
+                android:textSize="26dp"
+                />
+            <ImageButton
+                android:id="@+id/restaurant"
+                android:layout_width="wrap_content"
+                android:layout_height="275dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="40dp"
+                android:background="@drawable/restaurants"
+                android:paddingEnd="20dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="23dp"
+                android:layout_marginEnd="60dp"
+                android:text="Hébergement"
+                android:textStyle="bold"
+                android:textSize="26dp"
+                />
+            <ImageButton
+                android:id="@+id/Hébergement"
+                android:layout_width="wrap_content"
+                android:layout_height="275dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="40dp"
+                android:background="@drawable/marrakech"
+                android:paddingEnd="20dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginEnd="60dp"
+                android:text="Transport"
+                android:layout_marginTop="23dp"
+                android:textStyle="bold"
+                android:textSize="26dp"
+                />
+            <ImageButton
+                android:id="@+id/Transport"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:background="@drawable/transport"
+                android:paddingEnd="20dp"
+                android:layout_marginBottom="89dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

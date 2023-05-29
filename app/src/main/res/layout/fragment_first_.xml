@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/teal_200"
+    android:id="@+id/firsetactivite"
+    android:layout_height="match_parent"
+    tools:context=".First_Fragment">
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="vertical"
+        tools:ignore="SpeakableTextPresentCheck">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/caderaccueil"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="0dp"
+                android:layout_marginVertical="2dp"
+                android:scrollbarSize="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="siyaha merzouga properties__/u:object_r:vendor_gpu_powerhint_prop:s0 share_attr_fd=-1, magic=51647890, format=1, internal_format=1, byte_stride=1920"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    tools:ignore="TextSizeCheck" />
+
+                <ImageView
+                    android:id="@+id/image_premier"
+                    android:layout_width="match_parent"
+                    android:layout_height="267dp"
+                    android:layout_marginTop="100dp"
+                    android:paddingTop="0dp"
+                    android:src="@drawable/naturel_ig" />
+
+                <ImageButton
+                    android:id="@+id/heart"
+                    android:layout_width="36dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="355dp"
+                    android:background="@color/white"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/heart"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/caderaccueil1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="0dp"
+                android:layout_marginVertical="2dp"
+                android:scrollbarSize="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="siyaha merzouga properties__/u:object_r:vendor_gpu_powerhint_prop:s0 share_attr_fd=-1, magic=51647890, format=1, internal_format=1, byte_stride=1920"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    tools:ignore="TextSizeCheck" />
+
+                <ImageView
+                    android:id="@+id/image_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="267dp"
+                    android:layout_marginTop="100dp"
+                    android:paddingTop="0dp"
+                    android:src="@drawable/naturel_ig2" />
+
+                <ImageButton
+                    android:id="@+id/heart1"
+                    android:layout_width="36dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="355dp"
+                    android:background="@color/white"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/heart"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/caderaccueil2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="0dp"
+                android:layout_marginVertical="2dp"
+                android:scrollbarSize="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="siyaha merzouga properties__/u:object_r:vendor_gpu_powerhint_prop:s0 share_attr_fd=-1, magic=51647890, format=1, internal_format=1, byte_stride=1920"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    tools:ignore="TextSizeCheck" />
+
+                <ImageView
+                    android:id="@+id/image_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="267dp"
+                    android:layout_marginTop="100dp"
+                    android:paddingTop="0dp"
+                    android:src="@drawable/naturel_ig3" />
+
+                <ImageButton
+                    android:id="@+id/heart2"
+                    android:layout_width="36dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="355dp"
+                    android:background="@color/white"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/heart"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/caderaccueil3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="0dp"
+                android:layout_marginVertical="2dp"
+                android:scrollbarSize="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="siyaha merzouga properties__/u:object_r:vendor_gpu_powerhint_prop:s0 share_attr_fd=-1, magic=51647890, format=1, internal_format=1, byte_stride=1920"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    tools:ignore="TextSizeCheck" />
+
+                <ImageView
+                    android:id="@+id/image_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="267dp"
+                    android:layout_marginTop="100dp"
+                    android:paddingTop="0dp"
+                    android:src="@drawable/naturel_mont" />
+
+                <ImageButton
+                    android:id="@+id/heart3"
+                    android:layout_width="36dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="355dp"
+                    android:background="@color/white"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/heart"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/caderaccueil4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="0dp"
+                android:layout_marginVertical="2dp"
+                android:scrollbarSize="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="siyaha merzouga properties__/u:object_r:vendor_gpu_powerhint_prop:s0 share_attr_fd=-1, magic=51647890, format=1, internal_format=1, byte_stride=1920"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    tools:ignore="TextSizeCheck" />
+
+                <ImageView
+                    android:id="@+id/image_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="267dp"
+                    android:layout_marginTop="100dp"
+                    android:paddingTop="0dp"
+                    android:src="@drawable/naturel_mont1" />
+
+                <ImageButton
+                    android:id="@+id/heart4"
+                    android:layout_width="36dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="355dp"
+                    android:background="@color/white"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/heart"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/caderaccueil5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="0dp"
+                android:layout_marginVertical="2dp"
+                android:scrollbarSize="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="siyaha merzouga properties__/u:object_r:vendor_gpu_powerhint_prop:s0 share_attr_fd=-1, magic=51647890, format=1, internal_format=1, byte_stride=1920"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    tools:ignore="TextSizeCheck" />
+
+                <ImageView
+                    android:id="@+id/image_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="267dp"
+                    android:layout_marginTop="100dp"
+                    android:paddingTop="0dp"
+                    android:src="@drawable/naturel_sahara1" />
+
+                <ImageButton
+                    android:id="@+id/heart5"
+                    android:layout_width="36dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="355dp"
+                    android:background="@color/white"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/heart"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/caderaccueil6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="0dp"
+                android:layout_marginVertical="2dp"
+                android:scrollbarSize="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="siyaha merzouga properties__/u:object_r:vendor_gpu_powerhint_prop:s0 share_attr_fd=-1, magic=51647890, format=1, internal_format=1, byte_stride=1920"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    tools:ignore="TextSizeCheck" />
+
+                <ImageView
+                    android:id="@+id/image_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="267dp"
+                    android:layout_marginTop="100dp"
+                    android:paddingTop="0dp"
+                    android:src="@drawable/naturel_sahara" />
+
+                <ImageButton
+                    android:id="@+id/heart6"
+                    android:layout_width="36dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="355dp"
+                    android:background="@color/white"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/heart"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            </androidx.cardview.widget.CardView>
+            <Button
+                android:id="@+id/button_actualise"
+                android:layout_marginTop="5dp"
+                android:layout_width="150dp"
+                android:layout_marginStart="140dp"
+                android:text="actua"
+                android:layout_height="50dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

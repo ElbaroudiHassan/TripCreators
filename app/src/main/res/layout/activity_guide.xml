@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page2"
+    android:background="@drawable/wlc_bg">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="144dp"
+                    android:layout_height="168dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="5dp"
+                    android:src="@drawable/photoprofil" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1in"
+                    android:text="abd lwahed "
+                    android:textSize="25dp"
+                    tools:ignore="TextSizeCheck" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="42dp"
+                    android:layout_marginLeft="1in"
+                    android:text="Langue : Anglish"
+                    android:textStyle="normal"
+                    android:textColor="@color/black"
+                    tools:ignore="TextSizeCheck" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="82dp"
+                    android:layout_marginLeft="1in"
+                    android:text="Phone : 0620022423"
+                    android:textStyle="normal"
+                    android:textColor="@color/black"
+                    tools:ignore="TextSizeCheck" />
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_marginTop="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="144dp"
+                    android:layout_height="168dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="5dp"
+                    android:src="@drawable/photoprofil"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1in"
+                    android:text="Hassan EL Broudi"
+                    android:textSize="22dp"
+                    tools:ignore="TextSizeCheck" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="42dp"
+                    android:layout_marginLeft="1in"
+                    android:text="Langue : Anglish"
+                    android:textStyle="normal"
+                    android:textColor="@color/black"
+                    tools:ignore="TextSizeCheck" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="82dp"
+                    android:layout_marginLeft="1in"
+                    android:text="Phone : 0620022423"
+                    android:textStyle="normal"
+                    android:textColor="@color/black"
+                    tools:ignore="TextSizeCheck" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_marginTop="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp"
+                tools:ignore="ExtraText">
+
+                <ImageView
+                    android:layout_width="144dp"
+                    android:layout_height="168dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="5dp"
+                    android:src="@drawable/photoprofil"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1in"
+                    android:text="abd lwahed "
+                    android:textSize="25dp"
+                    tools:ignore="TextSizeCheck" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="42dp"
+                    android:layout_marginLeft="1in"
+                    android:text="Langue : Anglish"
+                    android:textStyle="normal"
+                    android:textColor="@color/black"
+                    tools:ignore="TextSizeCheck" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="82dp"
+                    android:layout_marginLeft="1in"
+                    android:text="Phone : 0620022423"
+                    android:textStyle="normal"
+                    android:textColor="@color/black"
+                    tools:ignore="TextSizeCheck" />
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_marginTop="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="144dp"
+                    android:layout_height="168dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="5dp"
+                    android:src="@drawable/photoprofil"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1in"
+                    android:text="Hassan EL Broudi"
+                    android:textSize="22dp"
+                    tools:ignore="TextSizeCheck" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="42dp"
+                    android:layout_marginLeft="1in"
+                    android:text="Langue : Anglish"
+                    android:textStyle="normal"
+                    android:textColor="@color/black"
+                    tools:ignore="TextSizeCheck" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="82dp"
+                    android:layout_marginLeft="1in"
+                    android:text="Phone : 0620022423"
+                    android:textStyle="normal"
+                    android:textColor="@color/black"
+                    tools:ignore="TextSizeCheck" />
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_marginTop="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="144dp"
+                    android:layout_height="168dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="5dp"
+                    android:src="@drawable/photoprofil"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1in"
+                    android:text="abd lwahed "
+                    android:textSize="25dp"
+                    tools:ignore="TextSizeCheck" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="42dp"
+                    android:layout_marginLeft="1in"
+                    android:text="Langue : Anglish"
+                    android:textStyle="normal"
+                    android:textColor="@color/black"
+                    tools:ignore="TextSizeCheck" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="82dp"
+                    android:layout_marginLeft="1in"
+                    android:text="Phone : 0620022423"
+                    android:textStyle="normal"
+                    android:textColor="@color/black"
+                    tools:ignore="TextSizeCheck" />
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_marginTop="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="144dp"
+                    android:layout_height="168dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="5dp"
+                    android:src="@drawable/photoprofil"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1in"
+                    android:text="abd lwahed "
+                    android:textSize="25dp"
+                    tools:ignore="TextSizeCheck" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="42dp"
+                    android:layout_marginLeft="1in"
+                    android:text="Langue : Anglish"
+                    android:textStyle="normal"
+                    android:textColor="@color/black"
+                    tools:ignore="TextSizeCheck" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="82dp"
+                    android:layout_marginLeft="1in"
+                    android:text="Phone : 0620022423"
+                    android:textStyle="normal"
+                    android:textColor="@color/black"
+                    tools:ignore="TextSizeCheck" />
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="12dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="144dp"
+                    android:layout_height="168dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="5dp"
+                    android:src="@drawable/photoprofil"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1in"
+                    android:text="abd lwahed "
+                    android:textSize="25dp"
+                    tools:ignore="TextSizeCheck" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="42dp"
+                    android:layout_marginLeft="1in"
+                    android:text="Langue : Anglish"
+                    android:textStyle="normal"
+                    android:textColor="@color/black"
+                    tools:ignore="TextSizeCheck" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="82dp"
+                    android:layout_marginLeft="1in"
+                    android:text="Phone : 0620022423"
+                    android:textStyle="normal"
+                    android:textColor="@color/black"
+                    tools:ignore="TextSizeCheck" />
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "440227090477",
+    "project_id": "trepcreator",
+    "storage_bucket": "trepcreator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440227090477:android:bf388220378f5ee24128a4",
+        "android_client_info": {
+          "package_name": "com.example.testPFE11"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "440227090477-gqjfi4bqq6v2u4friqmhudd3j236s964.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEV2Oxf-yUk4RuPVFNTYG7_eP1Qv_wjt0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "440227090477-gqjfi4bqq6v2u4friqmhudd3j236s964.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
